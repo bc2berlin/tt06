@@ -1,10 +1,10 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     0       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        ""      # Project title
-  author:       ""      # Your name
+  wokwi_id:     395054508867644417       # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title:        "SynchMux"      # Project title
+  author:       "bc2kaneda"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  description:  "A 2 bit synch muxer"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -14,24 +14,24 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[0]: "CLK"
+  ui[1]: "RST"
+  ui[2]: "X1"
+  ui[3]: "X2"
+  ui[4]: "Y1"
+  ui[5]: "Y2"
+  ui[6]: "NC"
+  ui[7]: "NC"
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[0]: "A"
+  uo[1]: "B"
+  uo[2]: "C"
+  uo[3]: "D"
+  uo[4]: "E"
+  uo[5]: "F"
+  uo[6]: "G"
+  uo[7]: "H"
 
   # Bidirectional pins
   uio[0]: ""
