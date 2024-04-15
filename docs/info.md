@@ -9,12 +9,10 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-TODO
+If OE == 0, all output pins are disabled.
 
-## How to test
+Output Y[0:1] = (SEL == 0) ? A[0:1] : B[0:1]
+Output Z[0:1] = (SEL == 0) ? ~A[0:1] : ~B[0:1]
 
-TODO
+Output YP and ZP are the parity of Y and Z respectively.
 
-## External hardware
-
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any

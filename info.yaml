@@ -4,7 +4,7 @@ project:
   title:        "SynchMux"      # Project title
   author:       "bc2kaneda"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "A 2 bit synch muxer"      # One line description of what your project does
+  description:  "A 2 bit synchronous mux with output enable"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -16,30 +16,30 @@ pinout:
   # Inputs
   ui[0]: "CLK"
   ui[1]: "RST"
-  ui[2]: "X1"
-  ui[3]: "X2"
-  ui[4]: "Y1"
-  ui[5]: "Y2"
-  ui[6]: "NC"
-  ui[7]: "NC"
+  ui[2]: "A1"
+  ui[3]: "A2"
+  ui[4]: "B1"
+  ui[5]: "B2"
+  ui[6]: "SEL"
+  ui[7]: "OE"
 
   # Outputs
-  uo[0]: "A"
-  uo[1]: "B"
-  uo[2]: "C"
-  uo[3]: "D"
-  uo[4]: "E"
-  uo[5]: "F"
-  uo[6]: "G"
-  uo[7]: "H"
+  uo[0]: ""
+  uo[1]: ""
+  uo[2]: ""
+  uo[3]: ""
+  uo[4]: ""
+  uo[5]: ""
+  uo[6]: ""
+  uo[7]: ""
 
   # Bidirectional pins
-  uio[0]: ""
-  uio[1]: ""
-  uio[2]: ""
-  uio[3]: ""
-  uio[4]: ""
-  uio[5]: ""
+  uio[0]: "Y1"
+  uio[1]: "Y2"
+  uio[2]: "YP"
+  uio[3]: "Z1"
+  uio[4]: "Z2"
+  uio[5]: "ZP"
   uio[6]: ""
   uio[7]: ""
 
