@@ -24,10 +24,10 @@ pinout:
   ui[7]: "OE"
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
+  uo[0]: "POPCNT_Y0"
+  uo[1]: "POPCNT_Y1"
+  uo[2]: "POPCNT_Z0"
+  uo[3]: "POPCNT_Z1"
   uo[4]: ""
   uo[5]: ""
   uo[6]: ""
